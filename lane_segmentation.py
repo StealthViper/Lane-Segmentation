@@ -53,7 +53,7 @@ def display_lines(image, lines):
 
 
 
-# image = cv2.imread('test_image.jpg')
+# image = cv2.imread('assets/test_image.jpg')
 # lane_image = np.copy(image)
 # canny_image = canny(lane_image)
 # cropped_image = region_of_interest(canny_image)
@@ -65,7 +65,7 @@ def display_lines(image, lines):
 # cv2.imshow("result", combo_image)
 # cv2.waitKey(0)
 
-cap = cv2.VideoCapture("test2.mp4")
+cap = cv2.VideoCapture("assets/test2.mp4")
 while(cap.isOpened()):
     _, frame = cap.read()
     
